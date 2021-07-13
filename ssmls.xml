@@ -1,0 +1,5 @@
+<ns0:speak xmlns:ns0="https://www.w3.org/2001/10/synthesis" version="1.0" xml:lang="pt-BR">
+  <ns0:voice name="pt-BR-AntonioNeural">
+    Ola, sou um robo criado pelo joao merlin, ja estou refinado e funcionando, finalmente posso ser utilizado!
+  </ns0:voice>
+</ns0:speak>

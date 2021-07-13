@@ -1,0 +1,234 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Traceback (most recent call last):
+  File "/usr/bin/add-apt-repository", line 12, in <module>
+    from softwareproperties.SoftwareProperties import SoftwareProperties, shortcut_handler
+  File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 28, in <module>
+    import apt_pkg
+ModuleNotFoundError: No module named 'apt_pkg'
+sh: 1: sudp: not found
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+The directory '/mnt/batch/tasks/workitems/3d8a93c9-a605-4a86-a3eb-378f9f5f1c26/job-1/convert_file/wd/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/mnt/batch/tasks/workitems/3d8a93c9-a605-4a86-a3eb-378f9f5f1c26/job-1/convert_file/wd/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/usr/lib/python3/dist-packages/pip/commands/install.py", line 342, in run
+    requirement_set.prepare_files(finder)
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 376, in prepare_files
+    discovered_reqs.extend(self._prepare_file(
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 634, in _prepare_file
+    abstract_dist.prep_for_dist()
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 129, in prep_for_dist
+    self.req_to_install.run_egg_info()
+  File "/usr/lib/python3/dist-packages/pip/req/req_install.py", line 412, in run_egg_info
+    self.setup_py, self.name,
+  File "/usr/lib/python3/dist-packages/pip/req/req_install.py", line 387, in setup_py
+    import setuptools  # noqa
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/__init__.py", line 14, in <module>
+    from setuptools.dist import Distribution, Feature
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/dist.py", line 24, in <module>
+    from setuptools.depends import Require
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/depends.py", line 7, in <module>
+    from .py33compat import Bytecode
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/py33compat.py", line 54, in <module>
+    unescape = getattr(html, 'unescape', html_parser.HTMLParser().unescape)
+AttributeError: 'HTMLParser' object has no attribute 'unescape'
+The directory '/mnt/batch/tasks/workitems/3d8a93c9-a605-4a86-a3eb-378f9f5f1c26/job-1/convert_file/wd/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/mnt/batch/tasks/workitems/3d8a93c9-a605-4a86-a3eb-378f9f5f1c26/job-1/convert_file/wd/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/usr/lib/python3/dist-packages/pip/commands/install.py", line 342, in run
+    requirement_set.prepare_files(finder)
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 376, in prepare_files
+    discovered_reqs.extend(self._prepare_file(
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 634, in _prepare_file
+    abstract_dist.prep_for_dist()
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 129, in prep_for_dist
+    self.req_to_install.run_egg_info()
+  File "/usr/lib/python3/dist-packages/pip/req/req_install.py", line 412, in run_egg_info
+    self.setup_py, self.name,
+  File "/usr/lib/python3/dist-packages/pip/req/req_install.py", line 387, in setup_py
+    import setuptools  # noqa
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/__init__.py", line 14, in <module>
+    from setuptools.dist import Distribution, Feature
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/dist.py", line 24, in <module>
+    from setuptools.depends import Require
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/depends.py", line 7, in <module>
+    from .py33compat import Bytecode
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/py33compat.py", line 54, in <module>
+    unescape = getattr(html, 'unescape', html_parser.HTMLParser().unescape)
+AttributeError: 'HTMLParser' object has no attribute 'unescape'
+The directory '/mnt/batch/tasks/workitems/3d8a93c9-a605-4a86-a3eb-378f9f5f1c26/job-1/convert_file/wd/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/mnt/batch/tasks/workitems/3d8a93c9-a605-4a86-a3eb-378f9f5f1c26/job-1/convert_file/wd/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/usr/lib/python3/dist-packages/pip/commands/install.py", line 342, in run
+    requirement_set.prepare_files(finder)
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 376, in prepare_files
+    discovered_reqs.extend(self._prepare_file(
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 634, in _prepare_file
+    abstract_dist.prep_for_dist()
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 129, in prep_for_dist
+    self.req_to_install.run_egg_info()
+  File "/usr/lib/python3/dist-packages/pip/req/req_install.py", line 412, in run_egg_info
+    self.setup_py, self.name,
+  File "/usr/lib/python3/dist-packages/pip/req/req_install.py", line 387, in setup_py
+    import setuptools  # noqa
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/__init__.py", line 14, in <module>
+    from setuptools.dist import Distribution, Feature
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/dist.py", line 24, in <module>
+    from setuptools.depends import Require
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/depends.py", line 7, in <module>
+    from .py33compat import Bytecode
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/py33compat.py", line 54, in <module>
+    unescape = getattr(html, 'unescape', html_parser.HTMLParser().unescape)
+AttributeError: 'HTMLParser' object has no attribute 'unescape'
+The directory '/mnt/batch/tasks/workitems/3d8a93c9-a605-4a86-a3eb-378f9f5f1c26/job-1/convert_file/wd/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/mnt/batch/tasks/workitems/3d8a93c9-a605-4a86-a3eb-378f9f5f1c26/job-1/convert_file/wd/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/usr/lib/python3/dist-packages/pip/commands/install.py", line 342, in run
+    requirement_set.prepare_files(finder)
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 376, in prepare_files
+    discovered_reqs.extend(self._prepare_file(
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 634, in _prepare_file
+    abstract_dist.prep_for_dist()
+  File "/usr/lib/python3/dist-packages/pip/req/req_set.py", line 129, in prep_for_dist
+    self.req_to_install.run_egg_info()
+  File "/usr/lib/python3/dist-packages/pip/req/req_install.py", line 412, in run_egg_info
+    self.setup_py, self.name,
+  File "/usr/lib/python3/dist-packages/pip/req/req_install.py", line 387, in setup_py
+    import setuptools  # noqa
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/__init__.py", line 14, in <module>
+    from setuptools.dist import Distribution, Feature
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/dist.py", line 24, in <module>
+    from setuptools.depends import Require
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/depends.py", line 7, in <module>
+    from .py33compat import Bytecode
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 664, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 627, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/usr/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl/setuptools/py33compat.py", line 54, in <module>
+    unescape = getattr(html, 'unescape', html_parser.HTMLParser().unescape)
+AttributeError: 'HTMLParser' object has no attribute 'unescape'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  8192    0  8192    0     0   5475      0 --:--:--  0:00:01 --:--:--  9990100 2388k    0 2388k    0     0  1437k      0 --:--:--  0:00:01 --:--:-- 2422k
+Traceback (most recent call last):
+  File "/mnt/batch/tasks/workitems/3d8a93c9-a605-4a86-a3eb-378f9f5f1c26/job-1/convert_file/wd/simulators.py", line 15, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'
+Warning: setting file 
+Warning: /mnt/batch/tasks/workitems/3d8a93c9-a605-4a86-a3eb-378f9f5f1c26/job-1/
+Warning: convert_file/wdile_new.rdpsr3  failed!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   167    0     0    0   167      0   7260 --:--:-- --:--:-- --:--:--  7260
+curl: (26) read function returned funny value

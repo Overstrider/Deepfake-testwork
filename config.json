@@ -1,0 +1,7 @@
+{
+    "azure_sub": "ea84b5cb5c024843970d2e98a8a68d42",
+    "azure_region": "brazilsouth",
+    "azure_synth_output": "Riff24Khz16BitMonoPcm",
+    "db": "mongodb+srv://archmage:UXjVaF1YVWYJDp7R@lgpd.s72h0.mongodb.net/rdp_ttfs?ssl=true&readPreference=secondary",
+    "url": "https://localhost:8080"
+}

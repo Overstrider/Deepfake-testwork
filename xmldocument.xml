@@ -1,0 +1,23 @@
+<breakfast_menu>
+    <food>
+        <name itemid="11">Belgian Waffles</name>
+        <voice newprices="yes">Ol&#225;, eu sou bananinha</voice>
+        <description>Two of our famous Belgian Waffles 
+with plenty of real maple syrup</description>
+        <calories>650</calories>
+    <tasty>YES</tasty></food>
+    <food>
+        <name>Strawberry Belgian Waffles</name>
+        <voice newprices="yes">Ol&#225;, eu sou bananinha</voice>
+        <description>Light Belgian waffles covered 
+with strawberries and whipped cream</description>
+        <calories>900</calories>
+    </food>
+    <food>
+        <name itemid="41">French Toast</name>
+        <voice newprices="yes">Ol&#225;, eu sou bananinha</voice>
+        <description>Thick slices made from our 
+homemade sourdough bread</description>
+        <calories>600</calories>
+    </food>
+</breakfast_menu>
